@@ -1,0 +1,260 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    margin-top: 3px;
+    direction: ltr;
+    background-color: rgb(207, 197, 197);
+}
+.container 
+{
+    width: 1502px;
+    display: flex;
+    justify-content:space-between;
+}
+.container .part1
+{
+    background-color: white;
+    width: 33%;
+    height: 1500px;
+}
+.container .part2
+{
+    background-color: white;
+    width: 66%;
+    height: 1500px;
+}
+.container .part1 .photo
+{
+    margin: 0px;
+    background-image: url('../img/images/rawpixel-unsplash-01-1170x600.jpg');
+    background-size: cover;
+    height: 400px;
+}
+.container .part1 .photo .font
+{
+    padding-top: 332px;
+    padding-left: 10px;
+    color: white;
+}
+.container .part1 .second
+{
+    padding: 10px;
+}
+.container .part1 .second img
+{
+    padding-left: 10px;
+    padding-top: 20px;
+    display: inline;
+    width: 42px;
+    height: 42px;
+    padding-right: 10px;
+}
+.container .part1 .second h3
+{
+    display: inline;
+    padding-bottom: 18px;
+}
+hr
+{
+    width: 90%;
+}
+.skills
+{
+    overflow: hidden;
+}
+.skills img
+{
+    width: 42px;
+    height: 42px;
+    display: inline;
+    padding-left: 19px;
+    padding-top: 15px;
+}
+.skills h2
+{
+    padding-left: 20px;
+    display: inline;
+    padding-bottom: 5px;
+}
+.skills .every h3
+{
+    padding-top: 15px;
+    padding-left: 15px;
+}
+.skills .every > div
+{
+    width: 450px;
+    height: 30px;
+    background-color: gray;
+    background-size: cover;
+    border-radius: 15px;
+    margin-left: 15px;
+}
+.main
+{
+    overflow: hidden;
+    float: left;
+    padding-top: 20px;
+    
+}
+.main .lan , .main .header
+{
+    float: left;   
+
+}
+.main .lan 
+{
+    width: 30px;
+    height: 30px;
+    padding-top: 7px;
+}
+.main .header
+{
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.part2 .q1
+{
+    float: left;
+    display: block;
+}
+.part2
+{
+    display: block;
+}
+.part2 .q1 img, .part2 .q1 h3
+{
+float: left;
+}
+.part2 .q1 img
+{
+    padding-top: 15px;
+    padding-left: 20px;
+width: 50px;
+height: 45px;
+}
+.part2 .q1 h3
+{
+    padding-left: 30px;
+}
+.part2 .we
+{
+    float: left;
+}
+.part2 .we img , .part2 .we h4 , .part2 .we button
+{
+    float: left;
+}
+.part2 .we img 
+{/*
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 55px;
+    height: 47px;*/
+    padding-top: 18px;
+    padding-left: 20px;
+    width: 50px;
+    height: 40px;
+}
+.part2 .we h4
+{
+    margin-left: 15px;
+}
+.part2 .we button
+{
+    margin-top: 20px;
+    margin-left: 7px;
+    color: white;
+    background-color: green;
+    border-radius: 3.5px;
+}
+.sx img , .sx h4 
+{
+float: left;
+}
+.sx img
+{/*
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 55px;
+    height: 47px;*/
+    padding-top: 18px;
+    padding-left: 20px;
+    width: 50px;
+    height: 40px;
+}
+.sx  h4
+{
+    margin-left: 15px;
+}
+.er h4 , .er img
+{
+    float: left;
+}
+.er h4
+{
+    
+    margin-left: 15px;
+}
+.er img
+{
+    /*float: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 55px;
+    height: 47px;*/padding-top: 18px;
+    padding-left: 20px;
+    width: 50px;
+    height: 40px;
+}
+.cv img , .cv h3 
+{
+    float: left;
+}
+.cv img
+{
+    padding-top: 15px;
+    padding-left: 20px;
+    width: 55px;
+    height: 47px;
+}
+.cv h3 
+{
+    padding-left: 15px;
+}
+.gg img , .gg h4 
+{
+float: left;
+}
+.gg img
+{
+    padding-top: 18px;
+    padding-left: 20px;
+    width: 50px;
+    height: 40px;
+}
+.gg  h4
+{
+    margin-left: 15px;
+}
+.footer
+{
+    margin-top: 10px;
+    height: 140px;
+    text-align: center;
+    overflow: hidden;
+    background-color: green;
+}
+.footer .start
+{
+    padding: 0px;
+}
+.footer .icons img
+{
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+}

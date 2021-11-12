@@ -1,0 +1,106 @@
+body
+{
+    background-color: lavender;
+}
+.parent
+{
+   
+    height: 800px;
+}
+.top
+{
+    background-color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+.top .link
+{
+    height: 30px;
+    background-color: black;
+}
+.top .link a
+{
+    text-decoration: none;
+    padding-left: 20px;
+    line-height: 30px;
+    color: white;
+    float: left;
+}
+.space
+{
+    background-color: lavender;
+    height: 10px;
+}
+.path
+{
+    direction: ltr;
+    display: flex;
+    justify-content:space-between;
+}
+.path .left
+{
+    background-color: white;
+    width: 68%;
+    height: 550px;
+}
+.path .right
+{
+    background-color: white;
+    width: 31%;
+    height: 490px;
+}
+.left .left1 h2
+{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.left .left1 .inside
+{
+    width: 98%;
+    background-color: grey;
+    height: 70px;
+    margin: auto;
+}
+.left .left1 .inside p
+{
+    padding: 5px;
+}
+.left .left2 h2
+{
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.left .left2 .inside
+{
+    width: 98%;
+    background-color: grey;
+    height: 70px;
+    margin: auto;
+}
+.left .left2 .inside p
+{
+    padding: 5px;
+}
+.right h2
+{
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.right .side 
+{
+    width: 96%;
+    background-color: grey;
+    height: 40px;
+    margin: auto;
+}
+.right .side p
+{
+    padding: 5px; 
+}
+.footer
+{
+    height: 50px;
+    background-color: grey;
+    text-align: center;
+    line-height: 50px;
+}
